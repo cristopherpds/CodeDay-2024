@@ -25,7 +25,7 @@ $query = $objDoc->listarDocumentosProfessor($_SESSION['idUsuario']);
     <img src="../../imagens/IFSUL.svg" width="350">
         <h2>Cadastro de Usuario</h2>
     </header>
-    <main class="flex-row-space" id="conteudo" style="flex-direction: column; gap: 10px;">
+    <main class="flex-row-space" id="conteudo" style="flex-direction: column; gap: 1px; height: 800px;">
     <h1 id="texto-lateral">Cadastro de alunos</h1>
     <form action="cad_aluno_ok.php" method="POST" class='form'>
         <label>Login</label>

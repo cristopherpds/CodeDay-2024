@@ -26,8 +26,8 @@ $query = $objDoc->listarDocumentosProfessor($_SESSION['idUsuario']);
         <h2>Cadastro de Usuario</h2>
     </header>
     <main class="flex-row-space" id="conteudo" style="flex-direction: column; gap: 10px;">
-    <h1 id="texto-lateral">Tabela dos conselhos</h1>
-    <form action="cad_prof_ok.php" method="POST" class='form'>
+    <h1 id="texto-lateral">Cadastro de Professor</h1>
+    <form action="cad_prof_ok.php" method="POST" class='form' style="height: 320px;">
         <label>Login</label>
         <input type='text' name='login'  class="inputs"><br>
         <label>Nome</label>
